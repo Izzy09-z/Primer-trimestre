@@ -1,0 +1,5 @@
+Hola, el repositorio va tomando muy buena forma. Se nota que estás avanzando con compromiso y dedicación, lo cual es fundamental. Sin embargo, aún faltan varios ejercicios que hemos trabajado en clase, por lo que te recomiendo completar la carpeta con todo el material pendiente para que el trabajo esté completo y refleje realmente todo tu proceso de aprendizaje.
+
+También es importante que continúes documentando el código. Agregar comentarios claros que expliquen lo que hace cada parte no solo mejora la calidad del proyecto, sino que también te ayudará a reforzar lo aprendido y facilitará futuras revisiones o ampliaciones del repositorio.
+
+¡Vas por buen camino! Con un poco más de organización y constancia, lograrás un trabajo excelente. Sigue así, cada línea de código te acerca más a dominar estas habilidades. ¡Tú puedes!
