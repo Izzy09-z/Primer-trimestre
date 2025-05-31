@@ -32,17 +32,17 @@
 #     print("No cumple con la condicion")
 
 #EJEMPLO
-gen=int(input("Ingresa tu año de nacimiento: "))
+# gen=int(input("Ingresa tu año de nacimiento: "))
 
-if gen <= 1945:
-    print("Eres generacion silenciosa")
-elif gen <= 1964:
-    print("Eres generacion Baby Boomer")
-elif gen <= 1979:
-    print("Eres generacion X")
-elif gen <= 2000:
-    print("Eres de la generacion Y")
-elif gen <= 2010:
-    print("Eres de la generacdion Z")
-else:
-    print("No se encuentra una generacion para tu año")
+# if gen <= 1945:
+#     print("Eres generacion silenciosa")
+# elif gen <= 1964:
+#     print("Eres generacion Baby Boomer")
+# elif gen <= 1979:
+#     print("Eres generacion X")
+# elif gen <= 2000:
+#     print("Eres de la generacion Y")
+# elif gen <= 2010:
+#     print("Eres de la generacdion Z")
+# else:
+#     print("No se encuentra una generacion para tu año")
