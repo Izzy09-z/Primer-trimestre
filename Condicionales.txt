@@ -1,0 +1,21 @@
+Es igual a: a==b
+No es igual: a!=b
+Menos que: a<=b
+Mayor que: a>
+Mayor o Igual que: a>=b
+
+
+**Sentecia Else
+El else (sino) le indicamos a Python que queremos ejecutar 
+una porcion de codigo o bloque de codigo solo sino se cumple 
+ninguna de las condiciones antes dichas.
+
+EJEMPLO
+numero=24
+if numero>36:
+print("El numero es grande")
+else:
+print("El numero es chico")
+
+
+**Elif
