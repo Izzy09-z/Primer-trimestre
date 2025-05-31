@@ -38,3 +38,28 @@
 # oper_total=opera1+opera2+opera3
 # print("El precio total de todos los productos es: " ,oper_total)
 
+#EJERCICIO 3
+'''nom=input("Por favor ingresa el nombre del estudiante a evaluar: ")
+asig1=input("Ingrese la primera asignatura: ")               #Asignatura 1
+not1=float(input("Ingrese la primera nota de" ,asig1))
+not2=float(input("Ingresa la segunda nota de" ,asig1))
+prom1=(not1+not2)/2
+dato1=[(asig1,prom1), not1, not2]    #Lista de la asignatura 1
+
+asig2=input("Ingrese la segunda asignatura: ")         #Asignatura 2
+not3=float(input("Ingrese la primera nota de" ,asig2))
+not4=float(input("Ingresa la segunda nota de" ,asig2))
+prom2=(not3+not4)/2
+dato2=[(asig2,prom2), not3, not4]    #Lista de la asignatura 2
+
+asig3=input("Ingrese la segunda asignatura: ")             #Asignatura 3
+not5=float(input("Ingrese la primera nota de" ,asig3))
+not6=float(input("Ingresa la segunda nota de" ,asig3))
+prom3=(not1+not2)/2
+dato3=[(asig3,prom3), not5, not6]    #Lista de la asignatura 3
+
+mate=[dato1,dato2,dato3] #Lista de materias
+Diccionario={
+    "Nombre": nom,
+    "Materias": mate
+}'''
