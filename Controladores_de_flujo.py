@@ -46,4 +46,3 @@
 #     print("Eres de la generacdion Z")
 # else:
 #     print("No se encuentra una generacion para tu año")
-print(4)
