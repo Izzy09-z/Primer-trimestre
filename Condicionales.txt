@@ -31,3 +31,18 @@ elif a==6:
 print("A es igual a seis)
 else:
 print("No se cumple la condicion")
+
+IN= es para saber si una clave está en el diccionario
+AND= es para conectar dos variables en un 'if'
+
+CODIGOS PARA CREAR UN NUEVO REPOSITORIO
+git init 
+git add README.md 
+git commit -m "primer commit" 
+git branch -M main 
+git remote (en caso de error colocar set url) add origin https://github.com/Izzy09-z/Diagrama.git
+ git push -u origin main
+ CODIGOS PARA AÑADIR CAMBIOS
+ git add .
+ git commit -m "(comentarios)"
+ git push -u origin main
