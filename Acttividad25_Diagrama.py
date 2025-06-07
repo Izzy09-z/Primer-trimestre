@@ -196,13 +196,44 @@
 #     print("Menor de edad")
 
 #Crea un diccionario {"nombre": "Lucía", "edad": 20}. Si la edad es mayor a 18, cambia el valor de “edad” a 21. Luego muestra el diccionario.
-diccionario2 = {
-    "Nombre": "Lucía",
-    "Edad": 20
-}
-if diccionario2["Edad"] > 18:
-    print("El valor será modificado")
-    diccionario2["Edad"] = 21 
-    print("El nuevo diccionario es:", diccionario2)
-else:
-    print("El valor no será modificado")
+# diccionario2 = {
+#     "Nombre": "Lucía",
+#     "Edad": 20
+# }
+# if diccionario2["Edad"] > 18:
+#     print("El valor será modificado")
+#     diccionario2["Edad"] = 21 
+#     print("El nuevo diccionario es:", diccionario2)
+# else:
+#     print("El valor no será modificado")
+
+#Crear un diccionario con {"Nombre":"Carlos"}. Si la clave "Ciudad" no existe, agregala con el valor "Bogotá" y muestra el diccionario
+# Crear el diccionario inicial
+# diccionario4 = {"Nombre": "Carlos"}
+# if "Ciudad" in diccionario4:
+#     print("La clave 'Ciudad' ya existe en el diccionario.")
+# elif "Ciudad" not in diccionario4:
+#     diccionario4["Ciudad"] = "Bogotá"
+#     print("Se agregó la clave 'Ciudad' con el valor 'Bogotá'.")
+# else:
+#     print("No se pudo verificar la clave 'Ciudad'.")
+# print(diccionario4)
+
+#   Dado el diccionario {"Producto":"pan","Precio":1200} verificar si la clave "Precio" existe. Si existe, muestra su valor, si no, muestra "No hay precio"
+# diccionario5={"Producto":"pan","Precio":1200}
+# if "Precio" in diccionario5:
+#     print("La clave 'Precio' ya existe en el diccionario")
+#     print("El precio de la clave 'Precio' es de: " ,diccionario5["Precio"])
+# elif "Precio" not in diccionario5:
+#     print("No hay precio")
+# else:
+#     print("No se puede verificar la clave 'Precio'")
+
+#Crear un diccionario con {"Pan":1200,"Leche":2000}. Si "pan" está en el diccionario, muestra su precio:si no, muestra "Producto no disponible"
+# diccionario6={"Pan":1200,"Leche":2000}
+# if "Pan" in diccionario6:
+#     print("La clave 'Pan' está en el diccionario, su precio es: " ,diccionario6["Pan"])
+# elif "Pan" not in diccionario6:
+#     print(" Producto no disponible")
+# else:
+#     print("No se puede verificar la palabra 'Pan'")
