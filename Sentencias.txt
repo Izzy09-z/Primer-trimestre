@@ -1,0 +1,14 @@
+while
+Repite la estructura de codigo las veces que se necesiten o las veces que se indica
+
+contador=1
+while contador <=100:
+print ("contador:" ,contador)    #Se ejecuta hasta 100
+contador+=1  #Es el que detiene el bucle (evita que el bucle sea infinito)
+
+while true
+texto=input("Escribe algo (o escribe 'salir' para terminar): ")
+if texto=='salir'
+break   #Define inmediatamente un ciclo aunque la condicion del ciclo siga siendo verdadera
+print("Escribiste: " ,texto)
+#Si el usuario escribe la palabra salir se ejecuta el break y el bucle termina, de lo contrario el break no funciona y se vuelve a repetir
