@@ -210,15 +210,15 @@
 
 #23. Crear un diccionario con {"Nombre":"Carlos"}. Si la clave "Ciudad" no existe, agregala con el valor "Bogotá" y muestra el diccionario
 # Crear el diccionario inicial
-diccionario4 = {"Nombre": "Carlos"}
-if "Ciudad" in diccionario4:
-    print("La clave 'Ciudad' ya existe en el diccionario.")
-elif "Ciudad" not in diccionario4:
-    diccionario4["Ciudad"] = "Bogotá"
-    print("Se agregó la clave 'Ciudad' con el valor 'Bogotá'.")
-else:
-    print("No se puede verificar")
-print(diccionario4)
+# diccionario4 = {"Nombre": "Carlos"}
+# if "Ciudad" in diccionario4:
+#     print("La clave 'Ciudad' ya existe en el diccionario.")
+# elif "Ciudad" not in diccionario4:
+#     diccionario4["Ciudad"] = "Bogotá"
+#     print("Se agregó la clave 'Ciudad' con el valor 'Bogotá'.")
+# else:
+#     print("No se puede verificar")
+# print(diccionario4)
 
 #24. Dado el diccionario {"Producto":"pan","Precio":1200} verificar si la clave "Precio" existe. Si existe, muestra su valor, si no, muestra "No hay precio"
 # diccionario5={"Producto":"pan","Precio":1200}
