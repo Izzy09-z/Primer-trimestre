@@ -24,19 +24,30 @@
 # print(f"Tu lista es {lista}")
 
 #4. CONTADOR DE PARES E IMPARES
-contador=0
-par=0
-impar=0
-while contador < 10:
-    numer=int(input("Ingresa un numero entero: "))
-    if numer %2==0:
-        par += 1
-        print(f"{numer} es par")
-    else:
-        print(f"{numer} es impar")
-        impar += 1
-    contador += 1
-
-print(F"Se han ingresado 10 numeros{contador}")
+# contador=0
+# par=0
+# impar=0
+# while contador < 10:
+#     numer=int(input("Ingresa un numero entero: "))
+#     if numer %2==0:
+#         par= par + 1
+#     else:
+#         impar = impar + 1
+#     contador = contador + 1
+# print(f"Pares {par} Impar {impar}")
 
 #5. PROMEDIO DE CALIFICACIONES
+notas=[ ]
+entrada=(input("Ingresa la primera nota de 0 a 5.0 (ingresa 'salir' para terminar): "))
+while entrada !="salir":
+    nota=float(entrada)
+    if 0.0 <= nota <= 5.0:
+        notas.append(nota)
+    else: 
+        print("Nota invalida. Debe estar entre 0 y 5.0")
+        entrada=input("Ingresa otra nota: ")
+if notas:
+    promedio=sum(notas)/len(notas)
+    print(f"El promedio de notas es: {promedio, 2}")
+else:
+    print("No se ingresaron notaas validad.")
