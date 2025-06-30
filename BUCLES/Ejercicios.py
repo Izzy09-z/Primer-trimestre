@@ -142,3 +142,52 @@
 #     elif menu=='SALIR':
 #         print("El programa finalizó")
 
+#11 REGISTRO DE EDADES
+# personas = {}
+# while True:
+#     nombre = input("Escribe el nombre de la persona ('salir' para terminar): ")
+#     if nombre.lower() == "salir":
+#         break
+#     edad = input(f"Escribe la edad de {nombre}: ")
+#     personas[nombre] = edad
+
+# print("Diccionario de personas y edades:")
+# print(personas)
+
+#12 BUSCAR EN LISTA
+# colores = ["rojo", "azul", "verde", "amarillo", "negro"]
+
+# while True:
+#     color = input("Escribe un color: ").lower()
+#     if color in colores:
+#         print(f"¡Encontraste un color de la lista: {color}!")
+#         break
+#     else:
+#         print("No está en la lista. Intenta de nuevo.")
+
+#13 POTENCIAS DE UN NUMERO
+# numero = int(input("Escribe un número: "))
+# potencia = 1
+# while potencia <= 5:
+#     print(f"{numero}^{potencia} = {numero ** potencia}")
+#     potencia += 1
+
+#14 LISTA DE CUADRADOS
+# cuadrados = []
+# contador = 1
+# while contador <= 5:
+#     numero = int(input(f"Escribe el número {contador}: "))
+#     cuadrados.append(numero ** 2)
+#     contador += 1
+# print("Lista de cuadrados:", cuadrados)
+
+#15 DICCIONARIO DE ESTUDIANTES
+# estudiantes = {}
+# while True:
+#     nombre = input("Nombre del estudiante (escribe 'fin' para terminar): ")
+#     if nombre.lower() == "fin":
+#         break
+#     nota = float(input(f"Nota final de {nombre}: "))
+#     estudiantes[nombre] = nota
+# print("Diccionario de estudiantes y sus notas:")
+# print(estudiantes)
