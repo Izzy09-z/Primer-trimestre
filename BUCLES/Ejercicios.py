@@ -37,17 +37,108 @@
 # print(f"Pares {par} Impar {impar}")
 
 #5. PROMEDIO DE CALIFICACIONES
-notas=[ ]
-entrada=(input("Ingresa la primera nota de 0 a 5.0 (ingresa 'salir' para terminar): "))
-while entrada !="salir":
-    nota=float(entrada)
-    if 0.0 <= nota <= 5.0:
-        notas.append(nota)
-    else: 
-        print("Nota invalida. Debe estar entre 0 y 5.0")
-        entrada=input("Ingresa otra nota: ")
-if notas:
-    promedio=sum(notas)/len(notas)
-    print(f"El promedio de notas es: {promedio, 2}")
-else:
-    print("No se ingresaron notaas validad.")
+# notas = []
+# entrada = input("Ingresa la primera nota de 0 a 5.0 (ingresa 'salir' para terminar): ")
+# while entrada != "salir":
+#     try:
+#         nota = float(entrada)
+#         if 0.0 <= nota <= 5.0:
+#             notas.append(nota)
+#         else:
+#             print("Nota inválida. Debe estar entre 0 y 5.0")
+#     except ValueError:
+#         print("Entrada inválida. Debe ser un número o 'salir'")
+#     entrada = input("Ingresa otra nota (o 'salir' para terminar): ")
+
+# if notas:
+#     promedio = sum(notas) / len(notas)
+#     print(f"El promedio de notas es: {promedio:.2f}")
+# else:
+#     print("No se ingresaron notas válidas.")
+
+#6 TABLA DE MULTIPLICAR INTERACTIVA
+# num_de_tabla=int(input("Ingresa el numero de la tabla de multiplica que quieras ver: "))
+# contador= 1
+# while contador<=10:
+#     resultado= num_de_tabla*contador
+#     print(f"{num_de_tabla}*{contador}={resultado}")
+#     contador +=1
+
+#7 ADIVINA EL NUMERO
+# numero_secreto = 17
+# while True:
+#     intento = int(input("Adivina el número secreto: "))
+#     if intento == numero_secreto:
+#         print("¡Correcto! Has adivinado el número.")
+#         break
+#     elif intento < numero_secreto:
+#         print("El número secreto es mayor.")
+#     else:
+#         print("El número secreto es menor.")
+
+#8 TUPLA DE FRUTAS
+# tupla=("manzana","fresa","mango", "piña")
+# while True:
+#     fruta=input("Ingresa el nombre de una fruta que creas que está en la tupla: ")
+#     if fruta=="manzana":
+#         print("Correcto, adivinaste! Esta fruta está en la tupla ")
+#         break
+#     elif fruta=="fresa":
+#         print("Correcto, adivinaste! Esta fruta está en la tupla ")
+#         break
+#     elif fruta=="mango":
+#         print("Correcto, adivinaste! Esta fruta está en la tupla ")
+#         break
+#     elif fruta=="piña":
+#         print("Correcto, adivinaste! Esta fruta está en la tupla ")
+#         break
+#     else:
+#         print("Oh la fruta que escribiste no está en la tupla!.Sigue intando")
+
+#9 DICCIONARIO DE TRADUCCION
+# diccionario={"pez":"fish",
+#              "leon":"lion",
+#              "mono":"monkey",
+#              "perro":"dog",
+#              "gato":"cat"}
+# while True:
+#     animal=input("Ingresa un animal para ver su traduccion (se verá solo si está en el diccionario): ").lower()
+#     if animal == "salir":
+#         print("¡Hasta luego!")
+#         break
+#     if animal in diccionario:
+#         print(f"La traducción de '{animal}' es '{diccionario[animal]}'.")
+#     else:
+#         print("La palabra no está en el diccionario.")
+
+#10 CALCULADORA BASICA
+# menu=input("Escoge una operacion de la lista: SUMA(+),RESTA(-),MULTIPLICACION(*),DIVISION(/) o escribe 'SALIR' para terminar: ").upper()
+
+# while True: 
+#     if menu=="+":
+#         num1=int(input("Ingresa un numero para la operacion: ")) 
+#         num2=int(input("Ingresa un segundo numero para la operacion: "))
+#         result= num1+num2
+#         print(f"El resultado de {num1}+{num2} es {result}")
+#         break
+#     elif menu=="-":
+#         num1=int(input("Ingresa un numero para la operacion: ")) 
+#         num2=int(input("Ingresa un segundo numero para la operacion: "))
+#         result= num1-num2
+#         print(f"El resultado de {num1}-{num2} es {result}")
+#         break
+#     elif menu=="*":
+#         num1=int(input("Ingresa un numero para la operacion: ")) 
+#         num2=int(input("Ingresa un segundo numero para la operacion: "))
+#         result= num1*num2
+#         print(f"El resultado de {num1}*{num2} es {result}")
+#         break
+#     elif menu=="/":
+#         num1=int(input("Ingresa un numero para la operacion: ")) 
+#         num2=int(input("Ingresa un segundo numero para la operacion: "))
+#         result= num1/num2
+#         print(f"El resultado de {num1}/{num2} es {result}")
+#         break
+#     elif menu=='SALIR':
+#         print("El programa finalizó")
+
